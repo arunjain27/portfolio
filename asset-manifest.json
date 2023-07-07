@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.68bb5232.css",
+    "main.js": "/portfolio/static/js/main.bb428966.js",
+    "static/js/787.1f11dfe9.chunk.js": "/portfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/homeimage.jpg": "/portfolio/static/media/homeimage.7f5552f3dcd2d08b76de.jpg",
+    "static/media/bunchofjoy.png": "/portfolio/static/media/bunchofjoy.6c3095834bb9fe289960.png",
+    "static/media/newsbook.png": "/portfolio/static/media/newsbook.fb99ef92f788a3f8b59b.png",
+    "static/media/arunimage.jpg": "/portfolio/static/media/arunimage.f1efcb3d0567f4d048f1.jpg",
+    "static/media/mezink.png": "/portfolio/static/media/mezink.8151196249d797f8c684.png",
+    "static/media/ballingrooilng.png": "/portfolio/static/media/ballingrooilng.99d79b13fc769dbb257c.png",
+    "static/media/arunjainlogo.png": "/portfolio/static/media/arunjainlogo.92a5ea180799c7019220.png",
+    "static/media/notebook.png": "/portfolio/static/media/notebook.8f9e1a89040c638dca70.png",
+    "index.html": "/portfolio/index.html",
+    "main.68bb5232.css.map": "/portfolio/static/css/main.68bb5232.css.map",
+    "main.bb428966.js.map": "/portfolio/static/js/main.bb428966.js.map",
+    "787.1f11dfe9.chunk.js.map": "/portfolio/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68bb5232.css",
+    "static/js/main.bb428966.js"
+  ]
+}
