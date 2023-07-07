@@ -1,0 +1,164 @@
+.contact{
+    text-align: center;
+     font-size: 3.2rem;
+     font-weight: 600;  
+     background-color: rgb(222, 226, 229) ; 
+     color:rgb(10, 10, 38);  
+     font-family: 'Noto Serif', serif;
+}
+.contactblock{
+     display: flex;
+    justify-content:space-around;
+    background-color:rgb(10, 10, 38); 
+   height: 150px;
+}
+.facebook{
+    display: flex;
+}
+.facebookpara{
+   margin-top: 15px;
+  margin-left: 10px;
+
+}
+.facebookimg{
+    width: 50px;
+    height: 50px;
+}
+a{
+    color: rgb(222, 226, 229);
+   font-size: 1.2rem;
+   font-weight: 600;
+    font-family: 'Noto Serif', serif;
+}
+p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Noto Serif', serif;
+}
+
+
+
+
+@media screen and ( max-width:1230px){
+
+    .contact{
+        font-size: 2rem;
+    }
+    
+    .facebookimg{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    a{
+      
+        font-size: 1.4rem;
+        font-weight: 550;
+          margin-top: -10px;
+        
+         }
+    
+     .contactblock{
+      height: 220px;
+    }
+    
+    }
+
+
+@media screen and ( max-width:1024px){
+
+    .contact{
+        font-size: 1.8rem;
+    }
+    
+    .facebookimg{
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+    
+    a{
+      
+        font-size: 1rem;
+        font-weight: 550;
+          margin-top: -10px;
+        
+         }
+    
+     .contactblock{
+      height: 220px;
+    }
+    
+    }
+
+@media screen and ( max-width:768px){
+
+    .contact{
+        font-size: 1.5rem;
+    }
+    
+    .facebookimg{
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    a{
+      
+        font-size: 0.7rem;
+        font-weight: 550;
+          margin-top: -10px;
+        
+         }
+    
+     .contactblock{
+      height: 220px;
+    }
+    
+    }
+@media screen and ( max-width:600px){
+
+.contact{
+    font-size: 1rem;
+}
+
+.facebookimg{
+    width: 1.5rem;
+    height: 2rem;
+}
+
+a{
+ font-size: 0.7rem;
+    font-weight: 550;
+     margin-top: -12px;
+ }
+
+ .contactblock{
+
+  height: 220px;
+}
+
+}
+
+@media screen and ( max-width:417px){
+
+    .contact{
+        font-size: 0.7rem;
+    }
+    
+    .facebookimg{
+        width: 1rem;
+        height: 1rem;
+    }
+    
+    a{
+      
+        font-size: 0.5rem;
+        font-weight: 550;
+         margin-top: -20px;
+     }
+    
+     .contactblock{
+       height: 150px;
+    }
+    
+    }
+

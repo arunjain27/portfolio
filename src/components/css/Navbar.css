@@ -1,0 +1,87 @@
+/* font-family: 'Playfair Display', serif; */
+
+.nav{
+ background-color:rgb(9, 9, 47);
+   display: flex;
+  justify-content: space-evenly;
+  scroll-behavior: "smooth"
+
+}
+.navlogo{
+    width: 6rem;
+    height: 70px;
+  margin-right:5%;
+    background-size: cover;
+
+  }
+.navinfo{
+  color: rgb(80, 140, 192) ;
+display: flex;
+font-family: 'Noto Serif', serif;
+ align-items: center; 
+  list-style: none;
+ font-size: 1.3rem;
+ font-weight: 600;
+
+}
+a li {
+    list-style: none;
+    color: rgb(80, 140, 192) ;
+   margin-left: 16px;
+}
+
+a :link{
+text-decoration: none;
+}
+
+@media screen and (max-width:1024px) {
+  a li{
+    font-size: 1.2rem;
+  }
+  .navlogo{
+    width: 6rem;
+    height: 63px;
+  margin-right:5%;
+    background-size: cover;
+}
+
+}
+
+
+
+@media screen and (max-width:768px) {
+  
+  a li{
+    font-size: 1rem;
+  }
+  .navlogo{
+    width: 5rem;
+    height: 60px;
+  margin-right:5%;
+    background-size: cover;
+}
+
+}
+@media screen and (max-width:600px) {
+  
+  a li{
+    font-size: 0.9rem;
+  }
+}
+
+
+
+@media screen and (max-width:417px) {
+  
+  a li{
+    font-size: 0.6rem;
+  }
+  .navlogo{
+    width: 4rem;
+    height: 50px;
+  margin-right:5%;
+    background-size: cover;
+}
+}
+
+

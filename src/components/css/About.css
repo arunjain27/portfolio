@@ -1,0 +1,419 @@
+#a{
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 600;  
+    background-color: rgb(222, 226, 229) ; 
+     font-family: 'Noto Serif', serif;
+  color:rgb(1, 2, 9);;
+  text-shadow: 1px 2px rgb(102, 100, 100);
+  
+}
+
+#abouthead{
+    background-color:rgb(10, 10, 38); 
+     height:35em;
+     display: flex;
+  
+     justify-content: space-around;
+     
+    }
+#aboutpic{
+    margin-top: 4rem;
+border: 1px solid rgb(115, 116, 154);
+width: 25rem;     
+height: 28rem;
+
+border-radius: 10px;
+}
+
+#aboutintroblock{
+    margin-top: 4rem;
+    /* border: 1px solid  rgb(33, 34, 110); */
+    width: 42rem;     
+    height: 28rem;
+   color:  rgb(176, 190, 202); ;
+    border-radius: 10px;
+  
+}
+#aboutintro{
+    text-shadow: 1px 2px rgb(102, 100, 100);
+font-size: 1.3rem;
+font-weight: 600;
+font-family: 'Playfair Display', serif;
+}
+
+button{
+    text-shadow: 1px 1px rgb(102, 100, 100);
+    font-size: 1.6rem;
+    font-weight: 600;
+   background-color: rgb(113, 145, 210);
+    margin-left: 6.3rem;
+    border-radius: 8px;
+font-family: 'Noto Serif', serif;
+}
+.button:hover{
+
+    cursor: pointer;
+   }
+#skills{
+display: flex;
+justify-content: space-evenly;
+
+}
+.education{
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+ .hobby{
+        display: flex;
+        justify-content: space-evenly;
+        }
+.frontend{
+ margin-top: 1rem;
+ background-color:rgb(2, 3, 31);
+ width: 12rem;
+ height: 12rem;
+ text-shadow: 1px 1px rgb(102, 100, 100);
+}
+
+.frontendhead{
+    font-size: 1.1rem;
+  font-weight: 600;
+ text-decoration: underline;
+ 
+}
+
+.frontenddesc{
+    font-size: 0.8rem;
+    font-weight: 600;
+  
+}
+
+     
+@media screen and (max-width:1230px) {
+    #a{
+        font-size: 2rem;
+        }
+        #aboutpic{
+         margin-top: 2.5rem;
+    
+     width: 21rem;     
+     height: 21rem;
+    
+     border-radius: 10px;
+     }
+     #aboutintroblock{
+        margin-top:2.5rem;
+         width: 25rem;     
+         height: 25rem; 
+        
+       
+     }
+     #aboutintro{
+  
+         font-size: 1.2rem;
+         font-weight: 550;
+        
+         }
+      
+         #abouthead{
+           
+              height:32rem;
+             
+             }
+         button{
+  
+             font-size: 1rem;
+             font-weight: 520;
+           
+             margin-left: 1rem;
+           
+         }
+         .frontend{
+             margin-top: 0.8rem;
+               
+             width: 18rem;
+             height: 8rem;
+           
+           
+         }
+         
+  .frontendhead{
+     margin-top: -2px;
+      font-size: 0.9rem; 
+  font-weight: 600;
+ text-decoration: underline;
+
+}
+
+.frontenddesc{
+  font-size: 0.6rem;
+  font-weight: 600;
+text-align:justify;
+}
+ 
+        
+ 
+
+} 
+     
+  @media screen and (max-width:1024px) {
+      #a{
+          font-size: 1.7rem;
+          }
+          #aboutpic{
+           margin-top: 2.5rem;
+      
+       width: 18rem;     
+       height: 18rem;
+      
+       border-radius: 10px;
+       }
+       #aboutintroblock{
+          margin-top:2.5rem ;
+           width: 22rem;     
+           height: 22rem;
+          
+         
+       }
+       #aboutintro{
+    
+           font-size: 1rem;
+           font-weight: 550;
+          
+           }
+        
+           #abouthead{
+             
+                height:32rem;
+               
+               }
+           button{
+    
+               font-size: 1rem;
+               font-weight: 500;
+              
+               margin-left: 1rem;
+             
+           }
+           .frontend{
+               margin-top: 0.8rem;
+                 
+               width: 18rem;
+               height: 8rem;
+             
+             
+           }
+           
+    .frontendhead{
+       margin-top: -2px;
+        font-size: 0.9rem; 
+    font-weight: 600;
+   text-decoration: underline;
+  
+}
+
+.frontenddesc{
+    font-size: 0.6rem;
+    font-weight: 600;
+  text-align:justify;
+}
+   
+          
+   
+  
+  } 
+
+  @media screen and (max-width:768px) {
+#about{
+        font-size: 1.5rem;
+        }
+        #aboutpic{
+         margin-top: 2.5rem;
+    
+     width: 15rem;     
+     height: 15rem;
+     
+
+     }
+     #aboutintroblock{
+        margin-top:2.5rem;
+         width: 17rem;     
+         height: 20rem;
+        
+       
+     }
+     #aboutintro{
+  
+         font-size: 1rem;
+         font-weight: 550;
+        
+         }
+      
+         #abouthead{
+           
+              height:30rem;
+             
+             }
+         button{
+  
+             font-size: 0.9rem;
+             font-weight: 500;
+            
+             margin-left: 1rem;
+           
+         }
+         .frontend{
+             margin-top: 0.8rem;
+       
+             width: 13rem;
+             height: 8rem;
+         
+         }
+         .frontendhead{
+            font-size: 0.6rem; 
+            text-align: center;
+      font-weight: 600;
+     text-decoration: underline;
+      }
+    
+    .frontenddesc{
+        font-size: 0.5rem;
+        font-weight: 600;
+      
+    } 
+        
+ 
+
+} 
+
+
+@media screen and (max-width:600px){
+  #a{
+       font-size: 1rem;
+       }
+       #aboutpic{
+        margin-top: 2.5rem;
+ 
+    width: 9rem;     
+    height: 9rem;
+   
+    border-radius: 10px;
+    }
+    #aboutintroblock{
+       margin-top:2.5rem ;
+        width: 12rem;      
+        height: 15rem;
+       
+      
+    }
+    #aboutintro{
+ 
+        font-size: 0.75rem;
+        font-weight: 520;
+       
+        }
+     
+        #abouthead{
+          
+             height:25em;
+            
+            }
+        button{
+ 
+            font-size: 0.5rem;
+            font-weight: 500;
+           
+            margin-left: 1rem;
+       
+        }
+        .frontend{
+            margin-top: 0.8rem;
+      
+            width: 9rem;
+            height: 6rem;
+         
+        }
+           
+        .frontendhead{
+            font-size: 0.4rem; 
+           
+      font-weight: 600;
+   
+      }
+    
+    .frontenddesc{
+        font-size: 0.3rem;
+        font-weight: 600;
+      
+    } 
+
+    }
+
+    
+@media screen and (max-width:417px) {
+  
+    #a{
+        font-size: 0.7rem;
+        }
+        #aboutpic{
+         margin-top: 2.5rem;
+    
+     width: 7rem;     
+     height: 9rem;
+    
+     border-radius: 10px;
+     }
+     #abouthead{
+        height:18em;
+         
+         }
+   
+     #aboutintroblock{
+        margin-top:2.5rem ;
+         width: 10rem;     
+         height: 10rem;
+        
+       
+     }
+    
+     #aboutintro{
+  
+         font-size: 0.5rem;
+         font-weight: 300;
+         text-shadow: 0px 0px rgb(102, 100, 100);
+         }
+         button{
+  
+             font-size: 0.3rem;
+             font-weight: 300;
+             text-shadow: 0px 0px rgb(102, 100, 100);
+         }
+       
+         .frontend{
+             margin-top: 0.8rem;
+        
+             width: 5rem;
+             height: 4rem;
+           font-size: 0.3rem; 
+           
+         }
+        
+         .frontendhead{
+            font-size: 0.3rem; 
+           
+            font-weight: 300;
+            text-shadow: 0px 0px rgb(102, 100, 100);
+   
+      }
+    
+    .frontenddesc{
+        font-size: 0.2rem;
+         font-weight: 300;
+         text-shadow: 0px 0px rgb(102, 100, 100);
+      
+    } 
+  }
+
+     

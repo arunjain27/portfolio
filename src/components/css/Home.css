@@ -1,0 +1,213 @@
+.home{
+display: flex;
+   
+    height: 41.5rem;
+     
+      /* background-color:rgb(33, 34, 110);  */
+justify-content: space-evenly;
+
+}
+
+
+    .homewrite{
+ 
+  margin-top: 4rem;
+  
+  
+    width: 35rem;     
+  
+   height: 34rem;
+   
+}
+.homeintro{
+   margin-top: 9rem;
+    font-family: 'Playfair Display', serif;
+    background-color:rgb(4, 4, 30); 
+    text-shadow: 2px 1px rgb(102, 100, 100);
+ font-size: 3rem;
+    font-weight: 600;
+ text-align: center;
+ color:  rgb(176, 190, 202); 
+}
+.homeimage{
+margin-top: 4rem; 
+
+width: 35rem;     
+height: 34rem;
+opacity: 0.9;
+}
+
+
+@media screen and ( max-width:1230px){
+    .home{
+        height: 32rem;
+     
+    }
+     
+    .homewrite{
+      
+        margin-top: 4rem;
+      
+       width: 24rem;
+        height: 21rem;
+  
+  
+}
+.homeimage{
+    margin-top: 4rem;
+   
+   width: 24rem;     
+    height: 21rem;
+
+}
+.homeintro{
+    margin-top: 4rem;
+     font-family: 'Merriweather Sans', sans-serif;    font-size: 2.5rem;
+  font-size: 1.5rem;
+     font-weight: 600;
+  text-align:center;
+ 
+ }
+ 
+
+}
+
+
+@media screen and ( max-width:1024px){
+    .home{
+        height: 30rem;
+     
+    } 
+     
+    .homewrite{
+      
+        margin-top: 4rem;
+      
+       width: 21rem;
+        height: 19rem;
+  
+  
+}
+.homeimage{
+    margin-top: 4rem;
+   
+   width: 21rem;     
+    height: 19rem;
+
+}
+.homeintro{
+    margin-top: 4rem;
+     font-family: 'Merriweather Sans', sans-serif;    font-size: 2.5rem;
+  font-size: 1.2rem;
+     font-weight: 600;
+  text-align:center;
+ 
+ }
+ 
+
+}
+
+
+
+@media screen and ( max-width:768px){
+    .home{
+        height: 28rem;
+     
+    }
+     
+    .homewrite{
+      
+        margin-top: 4rem;
+      
+       width: 19rem;
+        height: 17rem;
+  
+  
+}
+.homeimage{
+    margin-top: 4rem;
+   
+   width: 19rem;     
+    height: 17rem;
+
+}
+.homeintro{
+    margin-top: 4rem;
+     font-family: 'Merriweather Sans', sans-serif;    font-size: 2.5rem;
+  font-size: 0.9rem;
+     font-weight: 600;
+  text-align:center;
+ 
+ }
+ 
+
+}
+
+@media screen and ( max-width:600px){
+    .home{
+        height: 23rem;
+      
+    }
+     
+    .homewrite{
+      
+        margin-top: 4rem;
+      
+       width: 13rem;
+        height: 12rem;
+  
+  
+}
+.homeimage{
+    margin-top: 4rem;
+   
+   width: 13rem;     
+    height: 12rem;
+
+}
+.homeintro{
+    margin-top: 4rem;
+   
+       font-size: 2.5rem;
+  font-size: 0.7rem;
+     font-weight: 600;
+  text-align:center;
+
+ }
+ 
+
+}
+
+/* media query max-width 470 */
+
+
+@media screen and ( max-width:417px){
+    .home{
+        height:20rem;
+     
+    }
+     
+  
+    .homeimage{
+        margin-top: 4rem;
+    
+       width: 11rem;     
+        height: 11rem;
+  
+    }
+.homeintro{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.homewrite{
+ 
+   
+     
+     width: 11rem;     
+      height: 11rem;
+ 
+  
+  }
+}
+
+
