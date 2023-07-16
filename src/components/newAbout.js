@@ -124,7 +124,7 @@ function About(props){
      </div>
     <div id='aboutintroblock' style={ab}>
  
-       <p id='aboutintro' style={{...back, ...color}}>My name is Arun jain , and I have been immersed in the world of web development for 2 years. I'm passionate about keeping up with industry standardsto deliver best web solutions.In addition to technical skills, I value effective communication and teamwork. I believe that clear and open communication is essential for understanding client requirements and delivering successful projects on time.</p>
+       <p id='aboutintro' style={{...back, ...color}}>My name is Arun jain , and I have been immersed in the world of web development for 2 years. I'm passionate about keeping up with industry standards to deliver best web solutions. In addition to technical skills, I value effective communication and teamwork. I believe that clear and open communication is essential for understanding client requirements and delivering successful projects on time.</p>
 
      
     
@@ -138,7 +138,7 @@ function About(props){
             <p className='frontendhead'>FRONTEND SKILLS</p>
             
             <p className='frontenddesc'>HTML,CSS,JAVASCRIPT</p>   
-             <p className='frontenddesc'>FRAMEWORK---REACTJS</p>   
+             <p className='frontenddesc'>LIBRARY---REACTJS</p>   
              <p className='frontenddesc'>DEVOPS---GIT</p>  
           
           </div> 
